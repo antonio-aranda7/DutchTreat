@@ -4,47 +4,52 @@
 @{
     ViewBag.Title = "Home Page";
 }
+<div class="row ">
+    <div class="col-md-6 col-6">
+        <div class="">
+            <p>This is <strong>going</strong>  to be a site a <a href="http://microsoft.com">where</a> we can buy dutch artistis me site</p>
 
-    <p>This is <strong>going</strong>  to be a site a <a href="http://microsoft.com">where</a> we can buy dutch artistis me site</p>
+
+            <div class="product-info">
+                <img src="~/img/kpmg.jpeg" />
+                <h3>Mug</h3>
+
+                <ul class="product-props">
+                    <li>Price: $9.99</li>
+                    <li>Title: </li>
+                    <li>Description: self-portrait </li>
+                </ul>
+                <button id="buyButton" class="btn btn-success">Buy</button>
+                <br />
+            </div>
 
 
-    <div class="product-info">
-        <img src="~/img/kpmg.jpeg" />
-        <h3>Mug</h3>
-        <ul class="product-props">
-            <li>Price: $9.99</li>
-            <li>Title: </li>
-            <li>Description: self-portrait </li>
-        </ul>
-        <button id="buyButton">Buy</button>
-        <br />
+            <div>
+                <div id="loginToggle">Login</div>
+                <form class="popupForm">
+                    <div>
+                        <label>Username</label>
+                        <input />
+                    </div>
+
+                    <div>
+                        <label>Password</label>
+                        <input type="password" />
+                    </div>
+
+                    <div>
+                        <input type="checkbox" />
+                        <label>Remember Me?</label>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Login" />
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-
-    
-    <div>
-        <div id="loginToggle">Login</div>
-        <form class="popupForm">
-            <div>
-                <label>Username</label>
-                <input />
-            </div>
-
-            <div>
-                <label>Password</label>
-                <input type="password" />
-            </div>
-
-            <div>
-                <input type="checkbox" />
-                <label>Remember Me?</label>
-            </div>
-
-            <div>
-                <input type="submit" value="Login" />
-            </div>
-        </form>
-    </div>
-
+</div>
 
 
 
