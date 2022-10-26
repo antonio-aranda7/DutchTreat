@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Contact Us";
+}
+
+
+
+<!--<header>Welcome to Contact</header>
+<section>
+    <h2>@ViewBag.Title</h2>
+</section>-->
+
+<form method="post">
+    <div>
+        <label>Username:</label>
+        <input name="name" />
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" name="email" />
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input type="password" name="password" />
+    </div>
+
+    <div>
+        <label>Subject:</label>
+        <input type="text" name="subject" />
+    </div>
+
+    <div>
+        <label>Message:</label>
+        <textarea rows="4" name="message"> </textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Login" />
+    </div>
+</form>
